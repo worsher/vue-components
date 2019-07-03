@@ -16,7 +16,8 @@ export default {
 	install (vue: typeof Vue){
 		for(var k  in components){
 			let value : any = components[k]
-			vue.component(value.name,value)
+			/*console.log(value)
+			vue.component(value.name,value)*/
 		}
 		
 	}
