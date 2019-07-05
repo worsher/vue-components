@@ -2,6 +2,7 @@
 	<div>
 		<div class="title">
 			模块测试页面
+			<Menu></Menu>
 		</div>
 	</div>
 </template>

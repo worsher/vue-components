@@ -6,11 +6,10 @@
  * @desc 加载整个组件库
  */
 import Vue from 'vue'
-
-interface Components {
-	[key : string] : any
+import {Menu} from "./menu"
+const components : Components = {
+	Menu
 }
-const components : Components = {}
 
 export default {
 	install (vue: typeof Vue){
