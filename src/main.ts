@@ -4,7 +4,7 @@ import router from './router'
 import store from './store'
 import example from "./components"
 
-Vue.use(example)
+Vue.use(example) 
 Vue.config.productionTip = false
 
 new Vue({

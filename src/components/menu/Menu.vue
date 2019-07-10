@@ -4,11 +4,10 @@
 
 <script lang="ts">
 	import { Component, Prop, Vue } from 'vue-property-decorator';
-
 	@Component({
-		name : "menu"
+		name : "my-menu"
 	})
-	export default class Menu extends Vue {
+	export default class MyMenu extends Vue {
 		@Prop() private msg!: string;
 	}
 </script>
